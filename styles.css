@@ -1,0 +1,44 @@
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos generales */
+body {
+    transition: background-color 1s ease;
+    width: 70vw;    /* Margen */
+    margin: 0 auto;       /* Centrado */
+}
+
+section {
+    margin-top: 3em;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Seccion Video */
+.player-container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.player-container__video .player {
+    width: 100%;
+}
+
+
+/* Seccion ver mas detalles */
+.details-container .sinopsis{
+    transition: background-color 1s ease;
+    background-color: #fff;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Seccion Video -->
+    <section class="player-container">
+        <!-- Video -->
+        <div class="player-container__video">
+            <video src="assets/la_novia_cadaver.mp4" class="player" id="player"></video>
+        </div>
+        <!-- Controles -->
+        <div class="player-container__controls">
+            <button id="btnPlay" class="btnPlay">Play</button>
+            <button id="btnMute" class="btnMute">Mute</button>
+            <input id="rngVol" type="range" min="0" max="100" value="100"></input>
+        </div>
+    </section>
+
+    <!-- Seccion Mas detalles -->
+    <section class="details-container">
+        <div class="details-container_button">
+            <button id="btnDetails" class="btnDetails">Ver más detalles</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
